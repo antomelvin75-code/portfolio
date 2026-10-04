@@ -1135,11 +1135,11 @@
               <div class="contact-item-value">+91 81483 16659</div>
             </div>
           </a>
-          <a href="mailto:antomelvin18@gmail.com" class="contact-item">
+          <a href="mailto:antomelvin75@gmail.com" class="contact-item">
             <span class="contact-item-icon">✉️</span>
             <div class="contact-item-info">
               <div class="contact-item-label">Email</div>
-              <div class="contact-item-value">antomelvin18@gmail.com</div>
+              <div class="contact-item-value">antomelvin75@gmail.com</div>
             </div>
           </a>
         </div>
@@ -1198,7 +1198,7 @@
       contactForm.reset();
     } catch (err) {
       cfStatus.style.color = '#d9534f';
-      cfStatus.textContent = 'Sorry, something went wrong. Please email me directly at antomelvin75@gmail.com.';
+      cfStatus.textContent = 'Sorry, something went wrong (' + err.message + '). Please email me directly at antomelvin75@gmail.com.';
     } finally {
       btn.disabled = false;
       btn.textContent = 'Send Message →';
